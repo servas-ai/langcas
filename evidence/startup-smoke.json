@@ -1,0 +1,30 @@
+{
+  "health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "service": "LANGKAS"
+  },
+  "empty_real_workspace": true,
+  "runners": [
+    {
+      "id": "claude",
+      "available": false,
+      "enabled": true
+    },
+    {
+      "id": "gemini",
+      "available": false,
+      "enabled": true
+    },
+    {
+      "id": "codex",
+      "available": false,
+      "enabled": false
+    }
+  ],
+  "runtime": "3.13.5",
+  "os": "linux",
+  "native_server_subprocess": true,
+  "model_calls": 0,
+  "clean_shutdown": true
+}

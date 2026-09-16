@@ -1,0 +1,19 @@
+{
+  "backend_tests": 95,
+  "browser_test_cases": 2,
+  "browser_checkpoints": 26,
+  "browser_transport": "explicit test bridge -> real HTTP backend; not native browser networking",
+  "provider_model_calls": 0,
+  "mac_safari_verified": false,
+  "remote_repository_created": false,
+  "html_sha256": "f80b51c5978f4382d36cb95f61b2aa2230628b0687585cba7fda0b290845b003",
+  "sources": {
+    "langcas/__init__.py": "622da6a4095e1d0fcbf3d21693b8b6c1c7912a5f6d752908780c75eee4b84d66",
+    "langcas/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "langcas/app.py": "a183a0b02c136d84a796628951ed6d7d49032c6f8d39d1f87dfc21c118a38825",
+    "langcas/cli.py": "3889fcdb7a2bd6da3c9f0ef80baf11d1460cfaf9ea479b519e73b43577584a98",
+    "langcas/config.py": "34a983901f89f3de8ccd238b9a62854bd00a636c5e24399044b51b22d24e4c8b",
+    "langcas/db.py": "d732ff6498cd6743577065eea6e197c4c9c425c8c0ec898019e72dcca192a39d",
+    "langcas/runners.py": "3847a5d2908e192d6455797fb88f13b31e3ab515a2f408798775142421d096aa"
+  }
+}

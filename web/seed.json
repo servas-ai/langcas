@@ -1,0 +1,437 @@
+{
+  "version": 3,
+  "created": 0,
+  "profile": {
+    "name": "Du",
+    "fullName": "Lokaler Nutzer",
+    "email": "",
+    "job": "",
+    "avatar": ""
+  },
+  "prefs": {
+    "theme": "light",
+    "compact": false,
+    "motion": true,
+    "defaultModel": "auto",
+    "web": false,
+    "images": false,
+    "memory": false,
+    "autoActions": false,
+    "notify": true,
+    "updates": false,
+    "enterSend": true,
+    "customActive": true,
+    "instructions": "Antworte auf Deutsch. Sei klar, strukturiert und praxisnah.",
+    "about": "",
+    "fontSize": "Normal"
+  },
+  "workspace": {
+    "name": "LANGKAS Workspace",
+    "description": "Deine CLIs. Ein Arbeitsplatz. KI, oba koa Kas.",
+    "accent": "#5363e8",
+    "domain": "",
+    "logo": "",
+    "showLogo": true,
+    "hideModelLogo": false,
+    "disclaimer": "KI kann Fehler machen. Überprüfe wichtige Informationen.",
+    "retention": "365",
+    "saml": false,
+    "scim": false,
+    "ipRestriction": false,
+    "ipRanges": "",
+    "sessionDays": "30",
+    "analytics": true,
+    "extraUsage": false,
+    "budget": 100,
+    "apiBudget": 25,
+    "plan": "Local",
+    "teamShare": false,
+    "customLinks": "",
+    "welcome": "Wos soi i für di hackln?",
+    "greeting": true
+  },
+  "capabilities": {
+    "web": false,
+    "images": false,
+    "files": true,
+    "research": false,
+    "knowledge": true,
+    "memory": true,
+    "agents": true,
+    "workflows": true,
+    "code": false,
+    "http": false,
+    "personalApi": true,
+    "agentLogs": false,
+    "agentSources": true,
+    "skills": true,
+    "library": true
+  },
+  "models": {
+    "auto": true,
+    "claude": true,
+    "gemini": true,
+    "codex": true
+  },
+  "chats": [],
+  "projects": [],
+  "agents": [
+    {
+      "id": "a1",
+      "name": "Schreibassistent",
+      "description": "Klare Texte, starke Ideen und der richtige Ton für jede Nachricht.",
+      "icon": "pen",
+      "color": "peach",
+      "category": "Marketing",
+      "instructions": "Du bist ein sorgfältiger Schreibassistent. Schreibe präzise, freundlich und ohne Floskeln. Frage nach Zielgruppe und Zweck.",
+      "model": "auto",
+      "star": true,
+      "verified": false,
+      "visibility": "private",
+      "capabilities": [
+        "files"
+      ],
+      "knowledge": [],
+      "starters": [
+        "Hilf mir, eine E-Mail zu formulieren.",
+        "Verbessere diesen Text.",
+        "Schreibe einen LinkedIn-Beitrag."
+      ],
+      "version": 1,
+      "owner": "Du",
+      "archived": false,
+      "integrations": [],
+      "subagents": [],
+      "history": []
+    },
+    {
+      "id": "a2",
+      "name": "Wissensassistent",
+      "description": "Finde Antworten in deinen Dokumenten und im Wissen deines Teams.",
+      "icon": "book",
+      "color": "blue",
+      "category": "Produktivität",
+      "instructions": "Beantworte Fragen anhand der hinterlegten Dokumente. Nenne die verwendeten Quellen. Sage klar, wenn Informationen fehlen.",
+      "model": "auto",
+      "star": true,
+      "verified": false,
+      "visibility": "private",
+      "capabilities": [
+        "files",
+        "knowledge"
+      ],
+      "knowledge": [],
+      "starters": [
+        "Was steht in unserem Team-Handbuch?",
+        "Fasse die wichtigsten Punkte zusammen."
+      ],
+      "version": 1,
+      "owner": "Du",
+      "archived": false,
+      "integrations": [],
+      "subagents": [],
+      "history": []
+    },
+    {
+      "id": "a3",
+      "name": "Datenanalyst",
+      "description": "Verstehe deine Zahlen. Entdecke Muster und fasse Ergebnisse zusammen.",
+      "icon": "chart",
+      "color": "green",
+      "category": "Daten & Analyse",
+      "instructions": "Analysiere die bereitgestellten Daten. Beschreibe Rechenweg, Annahmen und Grenzen. Erfinde keine Zahlen.",
+      "model": "auto",
+      "star": false,
+      "verified": false,
+      "visibility": "private",
+      "capabilities": [
+        "files"
+      ],
+      "knowledge": [],
+      "starters": [
+        "Analysiere unsere Beispieldaten.",
+        "Welche Trends siehst du?"
+      ],
+      "version": 1,
+      "owner": "Du",
+      "archived": false,
+      "integrations": [],
+      "subagents": [],
+      "history": []
+    },
+    {
+      "id": "a4",
+      "name": "Meeting-Protokoll",
+      "description": "Aus Notizen werden Entscheidungen, Verantwortliche und nächste Schritte.",
+      "icon": "checklist",
+      "color": "pink",
+      "category": "Produktivität",
+      "instructions": "Verwandle Meeting-Notizen in eine strukturierte Zusammenfassung. Verwende die Abschnitte Kontext, Entscheidungen, Aufgaben, Offene Fragen.",
+      "model": "auto",
+      "star": false,
+      "verified": false,
+      "visibility": "private",
+      "capabilities": [
+        "files"
+      ],
+      "knowledge": [],
+      "starters": [
+        "Erstelle ein Protokoll aus meinen Notizen."
+      ],
+      "version": 1,
+      "owner": "Du",
+      "archived": false,
+      "integrations": [],
+      "subagents": [],
+      "history": []
+    },
+    {
+      "id": "a5",
+      "name": "IT Help Desk",
+      "description": "Ein ruhiger erster Ansprechpartner für technische Fragen im Team.",
+      "icon": "terminal",
+      "color": "gray",
+      "category": "Support",
+      "instructions": "Hilf schrittweise bei IT-Problemen. Frage nach Fehlermeldung und Gerät. Führe keine destruktiven Schritte ohne Bestätigung aus.",
+      "model": "auto",
+      "star": false,
+      "verified": false,
+      "visibility": "private",
+      "capabilities": [
+        "knowledge"
+      ],
+      "knowledge": [],
+      "starters": [
+        "Mein Drucker ist nicht erreichbar."
+      ],
+      "version": 1,
+      "owner": "Du",
+      "archived": false,
+      "integrations": [],
+      "subagents": [],
+      "history": []
+    },
+    {
+      "id": "a6",
+      "name": "Ideenpartner",
+      "description": "Neue Perspektiven für Projekte, Kampagnen und knifflige Aufgaben.",
+      "icon": "spark",
+      "color": "gold",
+      "category": "Marketing",
+      "instructions": "Entwickle drei unterschiedliche Ansätze. Erkläre zu jeder Idee Zielgruppe, Nutzen und nächsten kleinen Test.",
+      "model": "auto",
+      "star": false,
+      "verified": false,
+      "visibility": "private",
+      "capabilities": [],
+      "knowledge": [],
+      "starters": [
+        "Lass uns neue Ideen sammeln."
+      ],
+      "version": 1,
+      "owner": "Du",
+      "archived": false,
+      "integrations": [],
+      "subagents": [],
+      "history": []
+    }
+  ],
+  "folders": [],
+  "docs": [],
+  "prompts": [
+    {
+      "id": "pr1",
+      "name": "Eine gute E-Mail",
+      "category": "Kommunikation",
+      "text": "Schreibe eine freundliche, klare E-Mail an {{Empfänger}} zum Thema {{Thema}}. Ziel: {{Ziel}}. Schließe mit einem konkreten nächsten Schritt.",
+      "visibility": "private",
+      "star": true,
+      "owner": "Du"
+    },
+    {
+      "id": "pr2",
+      "name": "Dokument zusammenfassen",
+      "category": "Produktivität",
+      "text": "Fasse das folgende Dokument zusammen. Trenne Fakten, Entscheidungen und offene Fragen. Verwende maximal {{Anzahl}} zentrale Punkte.",
+      "visibility": "private",
+      "star": true,
+      "owner": "Du"
+    },
+    {
+      "id": "pr3",
+      "name": "Neue Perspektiven",
+      "category": "Kreativität",
+      "text": "Entwickle drei unterschiedliche Ideen für {{Vorhaben}}. Beschreibe jeweils Nutzen, Aufwand und einen kleinen ersten Test.",
+      "visibility": "private",
+      "star": false,
+      "owner": "Du"
+    },
+    {
+      "id": "pr4",
+      "name": "Meeting auf den Punkt",
+      "category": "Produktivität",
+      "text": "Erstelle aus diesen Notizen ein Protokoll mit Entscheidungen, Aufgaben, Verantwortlichen und offenen Fragen: {{Notizen}}",
+      "visibility": "private",
+      "star": false,
+      "owner": "Du"
+    },
+    {
+      "id": "pr5",
+      "name": "Code-Review",
+      "category": "Entwicklung",
+      "text": "Prüfe den folgenden Code auf Verständlichkeit, Randfälle und Sicherheitsprobleme. Schlage nachvollziehbare Änderungen vor: {{Code}}",
+      "visibility": "private",
+      "star": false,
+      "owner": "Du"
+    },
+    {
+      "id": "pr6",
+      "name": "Kundenfeedback sortieren",
+      "category": "Analyse",
+      "text": "Ordne das folgende Feedback nach Thema und Dringlichkeit. Leite drei konkrete Maßnahmen ab: {{Feedback}}",
+      "visibility": "private",
+      "star": false,
+      "owner": "Du"
+    }
+  ],
+  "skills": [
+    {
+      "id": "sk1",
+      "name": "Unser Schreibstil",
+      "description": "Klar, direkt und ohne leere Floskeln.",
+      "text": "Schreibe kurze, konkrete Sätze. Vermeide unnötige Superlative. Verwende deutsche Rechtschreibung.",
+      "enabled": true
+    },
+    {
+      "id": "sk2",
+      "name": "Quellen prüfen",
+      "description": "Fakten, Annahmen und Unsicherheiten trennen.",
+      "text": "Unterscheide belegte Fakten von Annahmen. Nenne Quellen nur, wenn sie vorliegen. Erfinde keine Referenzen.",
+      "enabled": true
+    },
+    {
+      "id": "sk3",
+      "name": "Meeting-Format",
+      "description": "Entscheidungen und nächste Schritte festhalten.",
+      "text": "Nutze die Abschnitte: Kontext, Entscheidungen, Aufgaben, Offene Fragen.",
+      "enabled": false
+    }
+  ],
+  "workflows": [
+    {
+      "id": "w_notes",
+      "name": "Notizen → Dokument",
+      "description": "Ohne KI: Notizen strukturieren und als Markdown in der Bibliothek speichern.",
+      "active": false,
+      "runs": [],
+      "nodes": [
+        {
+          "id": "n_start",
+          "type": "trigger",
+          "name": "Notizen eingeben",
+          "config": "Ersten Punkt klären\nZweiten Punkt planen"
+        },
+        {
+          "id": "n_transform",
+          "type": "transform",
+          "name": "Als Liste strukturieren",
+          "config": ""
+        },
+        {
+          "id": "n_output",
+          "type": "output",
+          "name": "Dokument speichern",
+          "config": "Notizen"
+        }
+      ]
+    },
+    {
+      "id": "w_review",
+      "name": "Entwurf → Freigabe",
+      "description": "Deine CLI erstellt den Text. Du prüfst ihn vor dem Speichern.",
+      "active": false,
+      "runs": [],
+      "nodes": [
+        {
+          "id": "n_review_start",
+          "type": "trigger",
+          "name": "Auftrag eingeben",
+          "config": "Schreibe einen kurzen Statusbericht."
+        },
+        {
+          "id": "n_review_ai",
+          "type": "ai",
+          "name": "Text mit CLI erstellen",
+          "config": "Erstelle den gewünschten Entwurf. Erfinde keine Fakten."
+        },
+        {
+          "id": "n_review_approval",
+          "type": "approval",
+          "name": "Deine Freigabe",
+          "config": "Prüfe den Inhalt vor dem Speichern."
+        },
+        {
+          "id": "n_review_output",
+          "type": "output",
+          "name": "Freigegebenes Dokument",
+          "config": "Freigegebener Entwurf"
+        }
+      ]
+    }
+  ],
+  "tasks": [],
+  "members": [],
+  "groups": [],
+  "roles": {
+    "Mitglied": {
+      "agents": false,
+      "workflows": false,
+      "prompts": true,
+      "integrations": false,
+      "share": false,
+      "groups": false,
+      "api": false
+    },
+    "Editor": {
+      "agents": true,
+      "workflows": true,
+      "prompts": true,
+      "integrations": true,
+      "share": true,
+      "groups": true,
+      "api": false
+    }
+  },
+  "connections": {},
+  "apiKeys": [],
+  "memories": [],
+  "audit": [],
+  "archived": [],
+  "onboarding": [
+    false,
+    false,
+    false
+  ],
+  "usage": {
+    "messages": 0,
+    "files": 0
+  },
+  "canvas": {
+    "text": "",
+    "title": "Neues Dokument",
+    "updated": null
+  },
+  "billing": {
+    "company": "Mein Workspace",
+    "email": "rechnung@beispiel.test",
+    "address": "",
+    "vat": "",
+    "cycle": "Jährlich"
+  },
+  "security": {
+    "samlEntity": "",
+    "samlUrl": "",
+    "scimUrl": "",
+    "ipRanges": ""
+  }
+}

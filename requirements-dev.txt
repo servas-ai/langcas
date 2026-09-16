@@ -1,0 +1,4 @@
+# Test tools only. The application itself uses Python's standard library.
+pytest==9.0.2
+httpx==0.28.1
+playwright==1.57.0
